@@ -94,7 +94,7 @@ Feature: Project
   @projectNotFound
   Scenario: Verify that getting a project by invalid ID returns 404
     Given call Project.feature@getAllProjects
-    And endpoint /v1/workspaces/{{workspaceId}}/projects/684895dfcba0c033cf236d24
+    And endpoint /v1/workspaces/{{workspaceId2}}/projects/{{projectId}}
     And header x-api-key = "OGU1YTNjYTQtOThmYy00NWNhLTlhOGYtMWMwNWM4YzA5M2U0"
     When execute method GET
     Then the status code should be 404

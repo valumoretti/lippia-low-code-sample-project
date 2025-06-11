@@ -22,3 +22,5 @@ Feature: Workspace
     And response should be $.[0].hourlyRate.currency = "USD"
     And response should be $.[0].memberships.[0].userId = "67fec9f9e20b814cf76adcbd"
     * define workspaceId = $.[0].id
+    * define workspaceId2 = $.[1].id
+    * print response
