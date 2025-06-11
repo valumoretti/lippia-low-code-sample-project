@@ -1,0 +1,25 @@
+{
+  "budgetEstimate": {
+    "active": true,
+    "estimate": 10000,
+    "includeExpenses": true,
+    "resetOption": "MONTHLY",
+    "type": "AUTO"
+  },
+  "estimateReset": {
+    "active": true,
+    "dayOfMonth": 20,
+    "dayOfWeek": "MONDAY",
+    "hour": 15,
+    "interval": "MONTHLY",
+    "isActive": true,
+    "month": "FEBRUARY"
+  },
+  "timeEstimate": {
+    "active": true,
+    "estimate": "PT1H30M",
+    "includeNonBillable": true,
+    "resetOption": "MONTHLY",
+    "type": "AUTO"
+  }
+}
