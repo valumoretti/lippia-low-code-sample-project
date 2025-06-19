@@ -10,7 +10,7 @@ Feature: Project
     And endpoint /v1/workspaces/{{workspaceId}}/projects
     And header x-api-key = "OGU1YTNjYTQtOThmYy00NWNhLTlhOGYtMWMwNWM4YzA5M2U0"
     And header Content-Type = application/json
-    And set value Project 1 to practice of key name in body jsons/bodies/addNewProject.json
+    And set value Project 2 to practice of key name in body jsons/bodies/addNewProject.json
     When execute method POST
     Then the status code should be 201
     * define projectId2 = $.id
